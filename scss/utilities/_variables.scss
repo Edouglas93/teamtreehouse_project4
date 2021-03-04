@@ -3,7 +3,6 @@
 /* ============================================= */
 
 // Button color
-
 $btn-text-color: #fff;
 
 //button color map 
@@ -14,6 +13,9 @@ $btn-colors: (
   "success": #63cc82,
   "warning": #fd7856,
 );
+
+//Border styles
+$br: 5px;
 
 // theme colors map
 $themes: (  1: #927bc1,

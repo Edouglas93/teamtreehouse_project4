@@ -9,7 +9,9 @@
     border: none;
     padding: 10px 0;
     text-transform: uppercase;
-    border-radius: 5px;
+    border-radius: $br;
+    cursor: pointer;
+    transition: background-color .5s ease-in .5s;
   }
   
   @each $btn-type, $btn-color in $btn-colors {
