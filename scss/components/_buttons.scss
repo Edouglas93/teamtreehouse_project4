@@ -15,5 +15,8 @@
   @each $btn-type, $btn-color in $btn-colors {
     .#{$btn-type} {
       background-color: $btn-colors;
+      &:hover {
+        background-color: lighten($btn-colors, 20%);
+      }
     }
   }
